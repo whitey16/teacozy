@@ -6,35 +6,65 @@ body {
   background-color: black;
   opacity: 0.9;
   margin: 0;
+  text-align: center;
 }
-
+/*styles for header elements*/
 header {
   height: 69px;
   border-bottom: 1px solid seashell;
   display: flex;
   position: fixed;
   width: 100%;
+  z-index: 20;
+  background-color: black;
 }
-
 nav {
   align-content: center;
   justify-content: space-between;
   margin-left: auto;
 }
-
-
 li {
   display: inline;
   padding: 10px;
 }
-
 a {
   color: seashell;
 }
-
 #logo {
   height: 50px;
   padding-left: 10px;
   padding-top: 9.5px;
   padding-bottom: 9.5px;
 }
+
+/*styles for main content*/
+.container {
+  width: 100%;
+  position: relative;
+  top: 69px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*styles for top section containing company "mission"*/
+.top_section {
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+}
+.mission {
+  background-color: black;
+}
+
+h2,
+h4 {
+  margin: 0;
+  padding: 10px 0;
+}
+
+/*second section showing the tea of the month*/
