@@ -111,7 +111,6 @@ h4 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-content: space-between;
 }
 h3 {
   margin: 0;
@@ -119,4 +118,16 @@ h3 {
 }
 .location span {
   margin: 22px 0;
+}
+
+/*footer styling*/
+footer {
+  width: 100%;
+}
+.contact {
+  height: 200px;
+}
+.copyright {
+  text-align: left;
+  padding-left: 20px;
 }
