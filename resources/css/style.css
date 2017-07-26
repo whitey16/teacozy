@@ -68,3 +68,23 @@ h4 {
 }
 
 /*second section showing the tea of the month*/
+.mid_section {
+  margin: 60px;
+}
+.teas {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.teas img {
+  height: 200px;
+  width: 300px;
+}
+.tea {
+  margin: 15px;
+}
+.tea h4 {
+  padding-bottom: 0;
+}
